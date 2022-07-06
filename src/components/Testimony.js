@@ -11,8 +11,9 @@ function Testimony(props){
                 alt="emma face"
             />
             <div className="testimony-container-text">
-                <p className="testimony-name">{props.name} en {props.country} </p>
-                <p className="testimony-position">{props.cargo} de {props.empresa} </p>
+                <p className="testimony-name">
+                    <strong>{props.name}</strong> en {props.country} </p>
+                <p className="testimony-position">{props.cargo} de <strong>{props.empresa}</strong> </p>
                 <p className="testimony-text">"{props.Testimony}"</p>
             </div>
         </div>
